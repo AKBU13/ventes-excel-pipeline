@@ -28,7 +28,7 @@ jobs:
         run: python update_excel.py
 
       - name: Téléverser le fichier mis à jour
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: ventes.xlsx
           path: ventes.xlsx
